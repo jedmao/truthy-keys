@@ -7,7 +7,7 @@
 
 [![npm](https://nodei.co/npm/truthy-keys.svg?downloads=true)](https://nodei.co/npm/truthy-keys/)
 
-Creates an array of the own enumerable property names of an object for which the values are truthy..
+Creates an array of the own enumerable property names of an object for which the values are truthy.
 
 ## Installation
 
@@ -31,5 +31,5 @@ truthyKeys(42);
 // []
 ```
 
-See [the tests](https://github.com/jedmao/bem-helpers/blob/master/src/index.test.ts).
+See [the tests](https://github.com/jedmao/truthy-keys/blob/master/src/index.test.ts).
 

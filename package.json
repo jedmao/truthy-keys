@@ -1,6 +1,6 @@
 {
   "name": "truthy-keys",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Creates an array of the own enumerable property names of an object for which the values are truthy.",
   "keywords": [
     "truthy",
