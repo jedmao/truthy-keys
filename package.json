@@ -1,6 +1,6 @@
 {
   "name": "truthy-keys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Creates an array of the own enumerable property names of an object for which the values are truthy.",
   "keywords": [
     "truthy",
@@ -9,6 +9,10 @@
   ],
   "author": "Jed Mao <jedmao@outlook.com>",
   "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/jedmao/truthy-keys.git"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "ava": {
@@ -26,9 +30,6 @@
     "prepublish": "npm run lint && tsc && ava",
     "test": "ava",
     "watch": "ava --watch"
-  },
-  "dependencies": {
-    "@types/node": "^8.0.28"
   },
   "devDependencies": {
     "ava": "^0.22.0",
